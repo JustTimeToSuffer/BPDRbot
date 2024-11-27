@@ -5,7 +5,6 @@ const { Bot, GrammyError, HttpError, Keyboard, InlineKeyboard } = require('gramm
 // Создаем своего бота на основе импортированного класса, передавая в качестве аргумента ссылку на полученный ранее токен
 // А нахуя - непонятно, ведь с прямой записью токена в скобки - тоже работает
 const bot = new Bot (process.env.BOT_API_KEY);
-//const bot = new Bot ('7343652641:AAEsmHFTHp1el0xzMHqd0qD4_10ol6P3YjU');
 //подключаем базу ответов
 const { answers } = require('./base.js');
 //Создаем клавиатуры
